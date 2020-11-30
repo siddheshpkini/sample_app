@@ -60,14 +60,12 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "sample_app_production"
 
-
-  config.action_mailer.delivery_method = :smtp
-  
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_deliveries = true
   config.action_mailer.perform_caching = false
-host = 'https://morning-escarpment-34268.herokuapp.com/' #replace with your own url
-config.action_mailer.default_url_options = { host: host }
+  host = 'https://morning-escarpment-34268.herokuapp.com/' #replace with your own url
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = { host: host }
 
 # SMTP settings for gmail
 
@@ -80,6 +78,8 @@ ActionMailer::Base.smtp_settings = {
   :password => "ec1174122f8915dba18b5524b241d38d-95f6ca46-959684fb"
  }
 
+ 
+ config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
