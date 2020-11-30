@@ -267,6 +267,7 @@ DEPENDENCIES
   image_processing (= 1.9.3)
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  mail
   mini_magick (= 4.9.5)
   minitest
   minitest-reporters (= 1.3.8)
