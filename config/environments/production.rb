@@ -74,8 +74,8 @@ ActionMailer::Base.smtp_settings = {
   :address => "smtp.mailgun.org",
   :port => 587,
   :domain => "sandboxe9cf9cdd234a45508c5e2a22f1cd166a.mailgun.org",
-  :user_name => "postmaster@sandboxe9cf9cdd234a45508c5e2a22f1cd166a.mailgun.org",
-  :password => "ec1174122f8915dba18b5524b241d38d-95f6ca46-959684fb"
+  :user_name => ENV['MAILGUN_USERNAME'],
+  :password => ENV['MAILGUN_PASSWORD']
  }
 
  
