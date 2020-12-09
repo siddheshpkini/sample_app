@@ -10,7 +10,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 gem 'active_storage_validations', '0.8.9'
-gem 'image_processing',           '1.9.3'
+gem 'image_processing',           '1.12.1'
 gem 'mini_magick',                '4.9.5'
 gem 'bcrypt',         '3.1.13'
 gem 'faker',          '2.11.0'
