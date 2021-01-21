@@ -8,6 +8,7 @@ class RelationshipsController < ApplicationController
         format.html { redirect_to @user }
         format.js
       end
+      redirect_to @user
     end
   
     def destroy
@@ -17,5 +18,6 @@ class RelationshipsController < ApplicationController
         format.html { redirect_to @user }
         format.js
       end
+      redirect_to @user 
     end
   end
