@@ -135,7 +135,7 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.5.0)
     minitest (5.14.3)
-    minitest-reporters (1.3.8)
+    minitest-reporters (1.4.3)
       ansi
       builder
       minitest (>= 5.0)
@@ -276,7 +276,7 @@ DEPENDENCIES
   mail
   mini_magick (= 4.9.5)
   minitest
-  minitest-reporters (= 1.3.8)
+  minitest-reporters (= 1.4.3)
   pg (= 1.2.3)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)

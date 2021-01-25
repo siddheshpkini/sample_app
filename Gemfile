@@ -61,7 +61,7 @@ group :test do
   gem 'webdrivers'
   gem 'rails-controller-testing', '1.0.4'
   gem 'minitest'
-  gem 'minitest-reporters',       '1.3.8'
+  gem 'minitest-reporters',       '1.4.3'
   gem 'guard',                    '2.16.2'
   gem 'guard-minitest',           '2.4.6'
 end
